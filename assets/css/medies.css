@@ -1,0 +1,406 @@
+/*************media queries************/
+@media  (max-width: 360px) and (max-width: 640px){
+  .header{
+    display: none;
+  }
+  .loog{
+        margin-left: 26%;
+  }
+  .menu nav{
+        display: none;
+  }
+  .icons{
+    display: none;
+  }
+  .arrival{
+        padding: 7%;
+  }
+  .info {
+    left: -3%;
+    padding: 3%;
+    position: absolute;
+    top: 13px;
+    
+  }
+  .kit {
+    flex-direction: column;
+  }
+  .part-right {
+    width: auto;
+  }
+
+  .part-left {
+    flex-direction: column;
+    margin-bottom: 7%;
+     margin-right: 0;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+  }
+  .rebook{
+      margin-bottom: 10%;
+  }
+  .info-reebok{
+    flex-direction: column;
+    margin-bottom: 6%;
+    
+  }
+  .glyphicon.glyphicon-envelope.sobre {
+    left: 0;
+}
+.embut {
+    left: 0;
+    margin-top: 1%;
+}
+  .emsec {
+    flex-direction:column;
+    font-size: 15px;
+    left: 0;
+    margin-top: 1%;   
+    padding: 8%;
+}
+.footer {
+    padding: 11%;
+    text-align: center;
+    }
+
+    .img-clothes {
+    margin-bottom: 8%;
+    transition: .5s;
+    text-align: center;
+  }
+  .text-description {
+    text-align: center;
+}
+.content{
+  flex-direction:column;
+  margin-bottom: 2%;
+}
+}
+	
+/*---------------------------------------CANAIMA------------------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  
+  .icon {
+     margin-left: 47%;
+    margin-top: 23px;
+    flex-wrap: wrap;
+    font-size: 17px;
+  }
+
+.header {
+ align-items: center;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 22px;
+  justify-content: flex-start;
+  margin: 1px;
+}
+.menu {
+  background: white;
+  color: black;
+  display: flex;
+  height: 80px;
+  margin: 1px;
+  margin-left: 1px;
+  margin-left: 40px;
+}
+
+.one {
+  margin-left: 12%;
+  margin-top: 15px;
+  font-size: 12px;
+}
+.two {
+  margin-left: 25px;
+  margin-top: 16px;
+  font-size: 12px;
+}
+
+.icons {
+  margin-top: 18px;
+  margin-left: 19%;
+  letter-spacing: 11px;
+}
+
+.info {
+  position: absolute;
+  left: -3%;
+  top: 35%;
+}
+
+ul.slick-dots {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  top: 42%;
+}
+.loog {
+  margin-top: -5px;
+  margin-left: 73px;
+  padding: 13px;
+  width: 146px;
+}
+.menu nav {
+	align-items: center;
+	color: black;
+   display: flex;
+   flex-wrap: wrap;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  margin-left: 28px;
+  margin-top: -15px;
+  }
+
+.glyphicon.glyphicon-envelope.sobre {
+  color: #FF7013;
+  font-size: 23px;
+  letter-spacing: 11px;
+  top: 1px;
+}
+
+}
+/*----------------- fin CANAIMA------------------*/
+@media  (max-width: 411px) and (max-width: 731px){
+
+  .header{
+    display: none;
+  }
+  .loog{
+        margin-left: 26%;
+  }
+  .menu nav{
+        display: none;
+  }
+  .icons{
+    display: none;
+  }
+  .arrival{
+        padding: 7%;
+  }
+  .info {
+    left: -3%;
+    padding: 3%;
+    position: absolute;
+    top: 13px;
+    
+  }
+  .kit {
+    flex-direction: column;
+  }
+  .part-right {
+    width: auto;
+  }
+
+  .part-left {
+    flex-direction: column;
+    margin-bottom: 7%;
+    padding: 20px;
+    margin-right: 0;
+    text-align: center;
+    width: auto;
+  }
+  .rebook{
+      margin-bottom: 10%;
+  }
+  .info-reebok{
+    margin-bottom: 6%;
+    flex-direction: column;
+  }
+  .glyphicon.glyphicon-envelope.sobre {
+    left: 0;
+}
+.embut {
+    left: 0;
+    margin-top: 1%;
+}
+
+  .emsec {
+    flex-direction:column;
+    font-size: 15px;
+    left: 0;
+    margin-top: 1%;   
+    padding: 8%;
+}
+
+.footer {
+    padding: 11%;
+    text-align: center;
+    }
+  }
+
+@media  (max-width: 320px) and (max-width: 568px){
+.info{
+    top: -5px;}
+  }
+
+  @media  (max-width: 414px) and (max-width: 736px){
+     .header{
+    display: none;
+  }
+
+  .loog{
+        margin-left: 26%;
+  }
+
+  .menu nav{
+        display: none;
+  }
+
+  .icons{
+    display: none;
+  }
+
+  .arrival{
+        padding: 7%;
+  }
+
+  .info {
+    left: -3%;
+    padding: 3%;
+    position: absolute;
+    top: 13px;   
+  }
+
+  .kit {
+    flex-direction: column;
+  }
+
+  .part-right {
+    width: auto;
+  }
+
+  .part-left {
+    flex-direction: column;
+    margin-bottom: 7%;
+    padding: 20px;
+    margin-right: 0;
+    text-align: center;
+    width: auto;
+  }
+
+  .rebook{
+      margin-bottom: 10%;
+  }
+
+  .info-reebok{
+    flex-direction: column;
+    margin-bottom: 6%;
+    
+  }
+
+  .glyphicon.glyphicon-envelope.sobre {
+    left: 0;
+}
+
+.embut {
+    left: 0;
+    margin-top: 1%;
+}
+
+  .emsec {
+    font-size: 15px;
+    flex-direction:column;
+    left: 0;
+    margin-top: 1%;
+    padding: 8%;
+}
+.footer {
+    padding: 11%;
+    text-align: center;
+    }
+     .img-clothes {
+      margin-bottom: 8%;
+    transition: .5s;
+    text-align: center;
+  }
+  .text-description {
+    text-align: center;
+}
+.content{
+  flex-direction:column;
+  margin-bottom: 2%;
+}
+  }
+
+
+  @media only screen and (max-width: 414px) and (max-width: 736px){
+       .header{
+    display: none;
+  }
+  .loog{
+        margin-left: 26%;
+  }
+  .menu nav{
+        display: none;
+  }
+  .icons{
+    display: none;
+  }
+  .arrival{
+        padding: 7%;
+  }
+  .info {
+    left: -3%;
+    position: absolute;
+    top: 13px;
+    padding: 3%;
+  }
+  .kit {
+    flex-direction: column;
+  }
+  .part-right {
+    width: auto;
+  }
+
+  .part-left {
+    flex-direction: column;
+    margin-bottom: 7%;
+    padding: 20px;
+    margin-right: 0;
+    text-align: center;
+    width: auto;
+  }
+  .rebook{
+      margin-bottom: 10%;
+  }
+  .info-reebok{
+    margin-bottom: 6%;
+    flex-direction: column;
+  }
+  .glyphicon.glyphicon-envelope.sobre {
+    left: 0;
+}
+.embut {
+    left: 0;
+    margin-top: 1%;
+}
+  .emsec {
+    flex-direction:column;
+    left: 0;
+    margin-top: 1%;
+    font-size: 15px;
+    padding: 8%;
+}
+.footer {
+    padding: 11%;
+    text-align: center;
+    }
+     .img-clothes {
+      margin-bottom: 8%;
+    transition: .5s;
+    text-align: center;
+  }
+  .text-description {
+    text-align: center;
+}
+.content{
+  flex-direction:column;
+  margin-bottom: 2%;
+}
+  }
+
